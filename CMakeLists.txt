@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.13)
-project(glad CXX)
+project(glad C)
 
 add_library(glad STATIC)
 target_sources(glad
